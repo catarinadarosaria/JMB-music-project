@@ -302,4 +302,19 @@ footer li {
     padding: 10px 20px;
     margin-top: 30px;
   }
+  footer {
+    padding: 50px;
+  }
+  footer h3 {
+    margin-top: 20px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  main h3 {
+    margin-top: 40px;
+  }
+  main {
+    padding: 50px;
+  }
 }
