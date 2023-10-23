@@ -224,6 +224,7 @@ footer li {
   list-style: none;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
 
 @media (max-width: 980px) {
