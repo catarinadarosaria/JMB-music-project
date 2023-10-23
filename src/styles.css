@@ -110,9 +110,87 @@
   font-style: italic;
 }
 
-h1 {
+body {
+  background-color: rgb(255, 255, 252);
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(
+      0deg,
+      #030504 10%,
+      rgba(2, 4, 3, 0.6) 51.55%,
+      rgba(11, 6, 32, 0.2) 100%
+    ),
+    url(../images/jmb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 270px 0;
+  background-position: center 0;
+}
+
+header h1 {
   font-family: var(--website-secondary-font);
-  text-transform: uppercase;
-  font-weight: 390;
   font-size: 128px;
+  font-weight: 390;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header h2 {
+  font-family: var(--website-primary-font);
+  font-size: 40px;
+  font-weight: 390;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 10px;
+}
+
+header h3 {
+  font-family: var(--website-primary-font);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 780;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+header a {
+  text-decoration: 0;
+  color: white;
+  font-family: var(--website-primary-font);
+  font-size: 16px;
+  font-weight: 390;
+  margin-top: 60px;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 100px;
+  background-color: rgba(133, 145, 137, 1);
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 135px 30px;
+  }
+  header h1 {
+    font-size: 64px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  header a {
+    padding: 10px 20px;
+    margin-top: 30px;
+  }
 }
