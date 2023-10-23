@@ -1,0 +1,118 @@
+:root {
+  --website-primary-font: "Radio Grotesk", sans-serif;
+  --website-secondary-font: "Fragment Serif", serif;
+}
+
+/* FONT */
+/* Light*/
+@font-face {
+  font-family: "Radio Grotesk";
+  src: url("/fonts/PPRadioGrotesk-Light.woff2") format("woff2"),
+    url("/fonts/PPRadioGrotesk-Light.woff") format("woff"),
+    url("/fonts/PPRadioGrotesk-Light.ttf") format("truetype"),
+    url("/fonts/PPRadioGrotesk-Light.otf") format("opentype");
+  font-weight: 300;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Radio Grotesk";
+  src: url("/fonts/PPRadioGrotesk-Regular.woff2") format("woff2"),
+    url("/fonts/PPRadioGrotesk-Regular.woff") format("woff"),
+    url("/fonts/PPRadioGrotesk-Regular.ttf") format("truetype"),
+    url("/fonts/PPRadioGrotesk-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Radio Grotesk";
+  src: url("/fonts/PPRadioGrotesk-Bold.woff2") format("woff2"),
+    url("/fonts/PPRadioGrotesk-Bold.woff") format("woff"),
+    url("/fonts/PPRadioGrotesk-Bold.ttf") format("truetype"),
+    url("/fonts/PPRadioGrotesk-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+/* Italic Light */
+@font-face {
+  font-family: "Radio Grotesk";
+  src: url("/fonts/PPRadioGrotesk-LightItalic.woff2") format("woff2"),
+    url("/fonts/PPRadioGrotesk-LightItalic.woff") format("woff"),
+    url("/fonts/PPRadioGrotesk-LightItalic.ttf") format("truetype"),
+    url("/fonts/PPRadioGrotesk-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Italic Regular */
+@font-face {
+  font-family: "Radio Grotesk";
+  src: url("/fonts/PPRadioGrotesk-RegularItalic.woff2") format("woff2"),
+    url("/fonts/PPRadioGrotesk-RegularItalic.woff") format("woff"),
+    url("/fonts/PPRadioGrotesk-RegularItalic.ttf") format("truetype"),
+    url("/fonts/PPRadioGrotesk-RegularItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Italic Bold */
+@font-face {
+  font-family: "Radio Grotesk";
+  src: url("/fonts/PPRadioGrotesk-BoldItalic.woff2") format("woff2"),
+    url("/fonts/PPRadioGrotesk-BoldItalic.woff") format("woff"),
+    url("/fonts/PPRadioGrotesk-BoldItalic.ttf") format("truetype"),
+    url("/fonts/PPRadioGrotesk-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* SECOND FONT */
+/* Regular */
+@font-face {
+  font-family: "Fragment Serif";
+  src: url("/fonts/PPFragment-SerifRegular.woff2") format("woff2"),
+    url("/fonts/PPFragment-SerifRegular.woff") format("woff"),
+    url("/fonts/PPFragment-SerifRegular.ttf") format("truetype"),
+    url("/fonts/PPFragment-SerifRegular.otf") format("opentype");
+  font-weight: 390;
+}
+
+/* Extra Bold */
+@font-face {
+  font-family: "Fragment Serif";
+  src: url("/fonts/PPFragment-SerifExtraBold.woff2") format("woff2"),
+    url("/fonts/PPFragment-SerifExtraBold.woff") format("woff"),
+    url("/fonts/PPFragment-SerifExtraBold.ttf") format("truetype"),
+    url("/fonts/PPFragment-SerifExtraBold.otf") format("opentype");
+  font-weight: 780;
+}
+
+/* Regular Light */
+@font-face {
+  font-family: "Fragment Serif";
+  src: url("/fonts/PPFragment-SerifRegularItalic.woff2") format("woff2"),
+    url("/fonts/PPFragment-SerifRegularItalic.woff") format("woff"),
+    url("/fonts/PPFragment-SerifRegularItalic.ttf") format("truetype"),
+    url("/fonts/PPFragment-SerifRegularItalic.otf") format("opentype");
+  font-weight: 390;
+  font-style: italic;
+}
+
+/* Extra Bold Regular */
+@font-face {
+  font-family: "Fragment Serif";
+  src: url("/fonts/PPFragment-SerifExtraBoldItalic.woff2") format("woff2"),
+    url("/fonts/PPFragment-SerifExtraBoldItalic.woff") format("woff"),
+    url("/fonts/PPFragment-SerifExtraBoldItalic.ttf") format("truetype"),
+    url("/fonts/PPFragment-SerifExtraBoldItalic.otf") format("opentype");
+  font-weight: 780;
+  font-style: italic;
+}
+
+h1 {
+  font-family: var(--website-secondary-font);
+  text-transform: uppercase;
+  font-weight: 390;
+  font-size: 128px;
+}
