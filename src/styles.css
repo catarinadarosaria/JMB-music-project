@@ -298,7 +298,7 @@ main p {
   font-family: var(--website-primary-font);
 }
 
-main a {
+.btn {
   text-decoration: 0;
   color: white;
   font-family: var(--website-primary-font);
