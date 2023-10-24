@@ -144,11 +144,20 @@
   aspect-ratio: 16 / 9;
 }
 
+.embed-section {
+  margin: 30px 0 40px 0;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
 .card-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/card-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
 }
 
 .white {
@@ -316,7 +325,7 @@ footer {
     rgba(133, 145, 137, 1) 100%
   );
   color: white;
-  padding: 60px 100px;
+  padding: 1px 100px;
 }
 
 footer h3 {
@@ -352,7 +361,7 @@ footer li {
 
 @media (max-width: 980px) {
   header {
-    padding: 135px 30px;
+    padding: 135px 40px;
   }
   header h1 {
     font-size: 64px;
@@ -379,7 +388,26 @@ footer li {
   main h3 {
     margin-top: 40px;
   }
-  main {
-    padding: 50px;
+
+  section {
+    padding: 30px 10px;
+  }
+
+  .about-section {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 0 50px;
+  }
+
+  section h2 {
+    font-size: 34px;
+  }
+
+  .card {
+    margin: 40px 20px 10px 20px;
+  }
+
+  .embed-section {
+    margin: 10px 20px 10px 20px;
   }
 }
