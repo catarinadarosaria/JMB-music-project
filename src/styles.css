@@ -115,6 +115,9 @@
   max-width: 1800px;
   margin: 0 auto;
 }
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   column-gap: 64px;
@@ -128,8 +131,76 @@
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .img-responsive {
   max-width: 100%;
+}
+
+.embed-responsive {
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.card-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/card-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white {
+  color: white;
+}
+
+.card {
+  background-color: white;
+  margin-top: 60px;
+  border-radius: 16px;
+}
+
+.card h4 {
+  font-size: 30px;
+  font-weight: 780;
+  line-height: 1;
+  margin: 10px 0;
+}
+
+.card h5 {
+  font-size: 16px;
+  font-weight: 780;
+  line-height: 1;
+  margin: 30px 0 0 0;
+}
+
+.card p {
+  line-height: 1.2;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer a {
+  display: block;
+  text-align: center;
+  margin: 0 20px 50px 20px;
+}
+
+.card iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+section {
+  max-width: 100%;
+  padding: 100px;
 }
 
 header {
@@ -190,9 +261,7 @@ header a {
 }
 
 main {
-  padding: 100px;
   margin: 0 auto;
-  max-width: 1800px;
   background-color: rgb(245, 245, 245);
 }
 
@@ -206,15 +275,12 @@ main h2 {
 
 main h3 {
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 780;
   letter-spacing: 5px;
   text-transform: uppercase;
   margin: 0 0 20px 0;
   font-family: var(--website-primary-font);
   color: var(--main-branding-color);
-  background-color: rgba(133, 145, 137, 15%);
-  padding: 2px;
-  display: inline-block;
 }
 
 main p {
@@ -243,7 +309,6 @@ main .grid-2-col .centered-container {
 }
 
 footer {
-  max-width: 1800px;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
@@ -251,7 +316,7 @@ footer {
     rgba(133, 145, 137, 1) 100%
   );
   color: white;
-  padding: 100px;
+  padding: 60px 100px;
 }
 
 footer h3 {
